@@ -11,8 +11,12 @@ export default function Portfolio() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('Sending message to node...');
+    
+    // Dynamically resolve backend endpoint
+    const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://portfolio-backend-igx4.onrender.com';
+
     try {
-      const res = await fetch('http://localhost:8000/api/contact', {
+      const res = await fetch(`${baseUrl}/api/contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -83,7 +87,7 @@ export default function Portfolio() {
             <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[var(--color-cyber-cyan,#00f0ff)] to-[var(--color-cyber-purple,#7000ff)] opacity-75 blur transition duration-500 group-hover:opacity-100"></div>
             <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-2xl overflow-hidden border border-[var(--color-cyber-border,#1e293b)] bg-[var(--color-cyber-card,#0c1021)] flex items-center justify-center">
               <Image
-                src="/profile.jpg" // Place your file in public/profile.jpg
+                src="/profile.jpg"
                 alt="Profile Image"
                 fill
                 priority
