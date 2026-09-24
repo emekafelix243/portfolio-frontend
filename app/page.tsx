@@ -192,6 +192,11 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
+                title: 'Enterprise Bakery Management & Accounting System',
+                tech: 'FastAPI • PostgreSQL • Next.js • Tailwind CSS',
+                desc: 'Specialized enterprise management software built with automated recipe-based ingredient depletion, batch production costing, daily POS sales accounting, and profit/loss reporting.'
+              },
+              {
                 title: 'DeltaQuant Offline-Capable POS System',
                 tech: 'FastAPI • PostgreSQL • Next.js • Tauri',
                 desc: 'Full-stack enterprise desktop point-of-sale software engineered with desktop licensing, payment processing, local data persistence, and Windows desktop packaging.'
