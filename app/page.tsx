@@ -164,7 +164,7 @@ export default function Portfolio() {
             {[
               { title: 'Core Languages', items: ['Python', 'TypeScript', 'JavaScript', 'SQL', 'HTML/CSS'] },
               { title: 'Web Frameworks', items: ['Next.js', 'React', 'FastAPI', 'Tailwind CSS', 'Node.js'] },
-              { title: 'Databases & Storage', items: ['PostgreSQL', 'SQLite', 'MongoDB', 'MySQL', 'Neon Serverless'] },
+              { title: 'Databases & DevOps', items: ['Docker', 'PostgreSQL', 'SQLite', 'MongoDB', 'MySQL', 'Neon Serverless'] },
               { title: 'Data & Algorithmic', items: ['pandas', 'NumPy', 'scikit-learn', 'Power BI', 'MT5 API', 'Tauri'] }
             ].map((cat, idx) => (
               <div key={idx} className="p-6 rounded-xl border border-[var(--color-cyber-border,#1e293b)] bg-[var(--color-cyber-card,#0c1021)]">
@@ -193,7 +193,7 @@ export default function Portfolio() {
             {[
               {
                 title: 'Enterprise Bakery Management & Accounting System',
-                tech: 'FastAPI • PostgreSQL • Next.js • Tailwind CSS',
+                tech: 'FastAPI • PostgreSQL • Next.js • Tailwind CSS • Docker',
                 desc: 'Specialized enterprise management software built with automated recipe-based ingredient depletion, batch production costing, daily POS sales accounting, and profit/loss reporting.'
               },
               {
@@ -213,7 +213,7 @@ export default function Portfolio() {
               },
               {
                 title: 'Full-Stack Event RSVP & E-Commerce Platforms',
-                tech: 'Next.js • Tailwind CSS • FastAPI • Neon PostgreSQL',
+                tech: 'Next.js • Tailwind CSS • FastAPI • Neon PostgreSQL • Docker',
                 desc: 'Modern, responsive web applications featuring dynamic user interfaces, RESTful API endpoints, state management, and continuous deployment via Render and Neon.'
               }
             ].map((proj, idx) => (
