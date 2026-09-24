@@ -103,13 +103,13 @@ export default function Portfolio() {
               Data Scientist &amp; Full-Stack Architect
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
-              Building High-Performance <br />
+              Building &amp; Teaching High-Performance <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-cyber-cyan,#00f0ff)] to-[var(--color-cyber-purple,#7000ff)]">
                 Algorithmic &amp; Web Systems
               </span>
             </h1>
             <p className="max-w-2xl text-slate-400 font-light leading-relaxed">
-              I am a software developer, data scientist, database administrator, and secondary school educator. I design scalable full-stack applications, build machine learning pipelines, engineer automated trading bots, and teach advanced Mathematics &amp; Physics.
+              I am a software developer, data scientist, database administrator, and technical educator. I design scalable full-stack applications, build machine learning pipelines, engineer automated trading bots, and teach Full-Stack Web Development, Data Processing, Advance Mathematics, and Physics.
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
               <a href="#projects" className="px-8 py-3.5 rounded-lg font-semibold text-black bg-[var(--color-cyber-cyan,#00f0ff)] hover:bg-cyan-300 transition-all">
@@ -145,10 +145,10 @@ export default function Portfolio() {
               <p className="text-sm text-slate-400">(2025)</p>
             </div>
             <div className="p-6 rounded-xl border border-[var(--color-cyber-border,#1e293b)] bg-[var(--color-cyber-card,#0c1021)]/60 backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-[var(--color-cyber-green,#00ff66)] mb-2">Education &amp; Admin</h3>
-              <p className="font-semibold text-slate-200">Data Processing Coordinator &amp; Educator</p>
-              <p className="text-sm text-slate-400">Gershom Goshen College, Lagos</p>
-              <p className="text-xs font-mono text-slate-500 mt-2">Database Admin &amp; STEM Instructor • 2017 - Present</p>
+              <h3 className="text-xl font-bold text-[var(--color-cyber-green,#00ff66)] mb-2">Education &amp; Instruction</h3>
+              <p className="font-semibold text-slate-200">Full-Stack &amp; STEM Instructor</p>
+              <p className="text-sm text-slate-400">Gershom Goshen College &amp; Mentorship Programs</p>
+              <p className="text-xs font-mono text-slate-500 mt-2">Web Dev, Data Processing &amp; STEM Educator • 2017 - Present</p>
             </div>
           </div>
         </div>
@@ -158,14 +158,14 @@ export default function Portfolio() {
       <section id="skills" className="py-24 px-6 border-t border-[var(--color-cyber-border,#1e293b)]/40 bg-[var(--color-cyber-card,#0c1021)]/30 scroll-mt-20">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold tracking-tight text-white mb-12 flex items-center gap-3">
-            <span className="text-[var(--color-cyber-cyan,#00f0ff)] font-mono text-xl">02.</span> Tech Stack Matrix
+            <span className="text-[var(--color-cyber-cyan,#00f0ff)] font-mono text-xl">02.</span> Tech Stack &amp; Curriculum
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { title: 'Core Languages', items: ['Python', 'TypeScript', 'JavaScript', 'SQL', 'HTML/CSS'] },
+              { title: 'Core Languages', items: ['Python', 'TypeScript', 'JavaScript', 'SQL', 'HTML5/CSS3'] },
               { title: 'Web Frameworks', items: ['Next.js', 'React', 'FastAPI', 'Tailwind CSS', 'Node.js'] },
               { title: 'Databases & DevOps', items: ['Docker', 'PostgreSQL', 'SQLite', 'MongoDB', 'MySQL', 'Neon Serverless'] },
-              { title: 'Data & Algorithmic', items: ['pandas', 'NumPy', 'scikit-learn', 'Power BI', 'MT5 API', 'Tauri'] }
+              { title: 'Data & Instruction', items: ['pandas / NumPy', 'scikit-learn', 'Power BI', 'Full-Stack Training', 'MT5 API', 'Tauri'] }
             ].map((cat, idx) => (
               <div key={idx} className="p-6 rounded-xl border border-[var(--color-cyber-border,#1e293b)] bg-[var(--color-cyber-card,#0c1021)]">
                 <h3 className="text-sm font-mono text-[var(--color-cyber-cyan,#00f0ff)] uppercase tracking-wider mb-4">{cat.title}</h3>
@@ -232,13 +232,13 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <div className="p-10 rounded-2xl border border-[var(--color-cyber-purple,#7000ff)]/40 bg-gradient-to-br from-[var(--color-cyber-card,#0c1021)] via-[var(--color-cyber-bg,#05070f)] to-[var(--color-cyber-card,#0c1021)] relative overflow-hidden">
             <div className="relative z-10">
-              <span className="text-xs font-mono text-[var(--color-cyber-purple,#7000ff)] tracking-widest uppercase">Consulting &amp; Mentorship</span>
+              <span className="text-xs font-mono text-[var(--color-cyber-purple,#7000ff)] tracking-widest uppercase">Consulting, Mentorship &amp; Training</span>
               <h2 className="text-4xl font-extrabold text-white mt-2 mb-4">DeltaQuant Solutions</h2>
               <p className="max-w-2xl text-slate-300 text-base leading-relaxed mb-6">
-                Through DeltaQuant Solutions, I offer 1-on-1 institutional Forex trading mentorship, technical price action analysis on XAU/USD &amp; EUR/USD, quantitative trade execution blueprints, and customized automated trading bots.
+                Through DeltaQuant Solutions, I deliver hands-on Full-Stack Web Development training (HTML, CSS, JavaScript, React, FastAPI), 1-on-1 institutional Forex trading mentorship, technical price action analysis on XAU/USD &amp; EUR/USD, and custom algorithmic trading solutions.
               </p>
               <a href="#contact" className="inline-block px-6 py-3 rounded-lg text-sm font-semibold bg-[var(--color-cyber-purple,#7000ff)] hover:bg-purple-600 text-white transition-all">
-                Request Mentorship Session
+                Request Training / Mentorship
               </a>
             </div>
           </div>
