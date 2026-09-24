@@ -109,7 +109,7 @@ export default function Portfolio() {
               </span>
             </h1>
             <p className="max-w-2xl text-slate-400 font-light leading-relaxed">
-              I am a software developer, data scientist, database administrator, and technical educator. I design scalable full-stack applications, build machine learning pipelines, engineer automated trading bots, and teach Full-Stack Web Development, Data Processing, Advance Mathematics, and Physics.
+              I am a software developer, data scientist, database administrator, and technical educator. I design scalable full-stack applications, build machine learning pipelines, engineer automated trading bots, and teach Full-Stack Web Development, Data Processing, Advanced Mathematics, and Physics.
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
               <a href="#projects" className="px-8 py-3.5 rounded-lg font-semibold text-black bg-[var(--color-cyber-cyan,#00f0ff)] hover:bg-cyan-300 transition-all">
